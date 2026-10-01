@@ -1,0 +1,30 @@
+{
+  "name": "crest",
+  "version": "0.1.0",
+  "description": "Terminal-date-optimal spaced-repetition planning: schedule reviews so memory crests on exam day, under a daily time budget.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "bin": {
+    "crest": "./src/cli.mjs"
+  },
+  "scripts": {
+    "start": "node src/cli.mjs demo",
+    "test": "node --test test/",
+    "build": "node tools/build-app.mjs",
+    "app": "node tools/serve.mjs",
+    "demo": "node src/cli.mjs demo --exam-in 14 --budget 60"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": [
+    "spaced-repetition",
+    "fsrs",
+    "anki",
+    "scheduling",
+    "optimization",
+    "education"
+  ]
+}
