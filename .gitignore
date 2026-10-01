@@ -1,0 +1,21 @@
+# Build output
+dist/
+
+# Generated collections and reports
+cards.csv
+crest-cards.csv
+plan.json
+schedule.csv
+
+# Node
+node_modules/
+npm-debug.log*
+.npm/
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
